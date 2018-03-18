@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0604ED2F205E48A200B64981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604ED2E205E48A200B64981 /* AppDelegate.swift */; };
+		0604ED31205E48A200B64981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604ED30205E48A200B64981 /* ViewController.swift */; };
+		0604ED34205E48A200B64981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0604ED32205E48A200B64981 /* Main.storyboard */; };
+		0604ED36205E48A200B64981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0604ED35205E48A200B64981 /* Assets.xcassets */; };
+		0604ED39205E48A200B64981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0604ED37205E48A200B64981 /* LaunchScreen.storyboard */; };
+		0604ED44205E48A300B64981 /* REDOProjectTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604ED43205E48A300B64981 /* REDOProjectTwoTests.swift */; };
+		0604ED4F205E48A300B64981 /* REDOProjectTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0604ED4E205E48A300B64981 /* REDOProjectTwoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0604ED40205E48A300B64981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0604ED23205E48A200B64981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0604ED2A205E48A200B64981;
+			remoteInfo = REDOProjectTwo;
+		};
+		0604ED4B205E48A300B64981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0604ED23205E48A200B64981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0604ED2A205E48A200B64981;
+			remoteInfo = REDOProjectTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0604ED2B205E48A200B64981 /* REDOProjectTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REDOProjectTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604ED2E205E48A200B64981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0604ED30205E48A200B64981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0604ED33205E48A200B64981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0604ED35205E48A200B64981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0604ED38205E48A200B64981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0604ED3A205E48A200B64981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0604ED3F205E48A300B64981 /* REDOProjectTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REDOProjectTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604ED43205E48A300B64981 /* REDOProjectTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDOProjectTwoTests.swift; sourceTree = "<group>"; };
+		0604ED45205E48A300B64981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0604ED4A205E48A300B64981 /* REDOProjectTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REDOProjectTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0604ED4E205E48A300B64981 /* REDOProjectTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDOProjectTwoUITests.swift; sourceTree = "<group>"; };
+		0604ED50205E48A300B64981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0604ED28205E48A200B64981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604ED3C205E48A300B64981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604ED47205E48A300B64981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0604ED22205E48A200B64981 = {
+			isa = PBXGroup;
+			children = (
+				0604ED2D205E48A200B64981 /* REDOProjectTwo */,
+				0604ED42205E48A300B64981 /* REDOProjectTwoTests */,
+				0604ED4D205E48A300B64981 /* REDOProjectTwoUITests */,
+				0604ED2C205E48A200B64981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0604ED2C205E48A200B64981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0604ED2B205E48A200B64981 /* REDOProjectTwo.app */,
+				0604ED3F205E48A300B64981 /* REDOProjectTwoTests.xctest */,
+				0604ED4A205E48A300B64981 /* REDOProjectTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0604ED2D205E48A200B64981 /* REDOProjectTwo */ = {
+			isa = PBXGroup;
+			children = (
+				0604ED2E205E48A200B64981 /* AppDelegate.swift */,
+				0604ED30205E48A200B64981 /* ViewController.swift */,
+				0604ED32205E48A200B64981 /* Main.storyboard */,
+				0604ED35205E48A200B64981 /* Assets.xcassets */,
+				0604ED37205E48A200B64981 /* LaunchScreen.storyboard */,
+				0604ED3A205E48A200B64981 /* Info.plist */,
+			);
+			path = REDOProjectTwo;
+			sourceTree = "<group>";
+		};
+		0604ED42205E48A300B64981 /* REDOProjectTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0604ED43205E48A300B64981 /* REDOProjectTwoTests.swift */,
+				0604ED45205E48A300B64981 /* Info.plist */,
+			);
+			path = REDOProjectTwoTests;
+			sourceTree = "<group>";
+		};
+		0604ED4D205E48A300B64981 /* REDOProjectTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0604ED4E205E48A300B64981 /* REDOProjectTwoUITests.swift */,
+				0604ED50205E48A300B64981 /* Info.plist */,
+			);
+			path = REDOProjectTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0604ED2A205E48A200B64981 /* REDOProjectTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604ED53205E48A300B64981 /* Build configuration list for PBXNativeTarget "REDOProjectTwo" */;
+			buildPhases = (
+				0604ED27205E48A200B64981 /* Sources */,
+				0604ED28205E48A200B64981 /* Frameworks */,
+				0604ED29205E48A200B64981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REDOProjectTwo;
+			productName = REDOProjectTwo;
+			productReference = 0604ED2B205E48A200B64981 /* REDOProjectTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0604ED3E205E48A300B64981 /* REDOProjectTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604ED56205E48A300B64981 /* Build configuration list for PBXNativeTarget "REDOProjectTwoTests" */;
+			buildPhases = (
+				0604ED3B205E48A300B64981 /* Sources */,
+				0604ED3C205E48A300B64981 /* Frameworks */,
+				0604ED3D205E48A300B64981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0604ED41205E48A300B64981 /* PBXTargetDependency */,
+			);
+			name = REDOProjectTwoTests;
+			productName = REDOProjectTwoTests;
+			productReference = 0604ED3F205E48A300B64981 /* REDOProjectTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0604ED49205E48A300B64981 /* REDOProjectTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0604ED59205E48A300B64981 /* Build configuration list for PBXNativeTarget "REDOProjectTwoUITests" */;
+			buildPhases = (
+				0604ED46205E48A300B64981 /* Sources */,
+				0604ED47205E48A300B64981 /* Frameworks */,
+				0604ED48205E48A300B64981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0604ED4C205E48A300B64981 /* PBXTargetDependency */,
+			);
+			name = REDOProjectTwoUITests;
+			productName = REDOProjectTwoUITests;
+			productReference = 0604ED4A205E48A300B64981 /* REDOProjectTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0604ED23205E48A200B64981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michael Mancha";
+				TargetAttributes = {
+					0604ED2A205E48A200B64981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0604ED3E205E48A300B64981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0604ED2A205E48A200B64981;
+					};
+					0604ED49205E48A300B64981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0604ED2A205E48A200B64981;
+					};
+				};
+			};
+			buildConfigurationList = 0604ED26205E48A200B64981 /* Build configuration list for PBXProject "REDOProjectTwo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0604ED22205E48A200B64981;
+			productRefGroup = 0604ED2C205E48A200B64981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0604ED2A205E48A200B64981 /* REDOProjectTwo */,
+				0604ED3E205E48A300B64981 /* REDOProjectTwoTests */,
+				0604ED49205E48A300B64981 /* REDOProjectTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0604ED29205E48A200B64981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604ED39205E48A200B64981 /* LaunchScreen.storyboard in Resources */,
+				0604ED36205E48A200B64981 /* Assets.xcassets in Resources */,
+				0604ED34205E48A200B64981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604ED3D205E48A300B64981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604ED48205E48A300B64981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0604ED27205E48A200B64981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604ED31205E48A200B64981 /* ViewController.swift in Sources */,
+				0604ED2F205E48A200B64981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604ED3B205E48A300B64981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604ED44205E48A300B64981 /* REDOProjectTwoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0604ED46205E48A300B64981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0604ED4F205E48A300B64981 /* REDOProjectTwoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0604ED41205E48A300B64981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0604ED2A205E48A200B64981 /* REDOProjectTwo */;
+			targetProxy = 0604ED40205E48A300B64981 /* PBXContainerItemProxy */;
+		};
+		0604ED4C205E48A300B64981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0604ED2A205E48A200B64981 /* REDOProjectTwo */;
+			targetProxy = 0604ED4B205E48A300B64981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0604ED32205E48A200B64981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604ED33205E48A200B64981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0604ED37205E48A200B64981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0604ED38205E48A200B64981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0604ED51205E48A300B64981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0604ED52205E48A300B64981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0604ED54205E48A300B64981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = REDOProjectTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.REDOProjectTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0604ED55205E48A300B64981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = REDOProjectTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.REDOProjectTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0604ED57205E48A300B64981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = REDOProjectTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.REDOProjectTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REDOProjectTwo.app/REDOProjectTwo";
+			};
+			name = Debug;
+		};
+		0604ED58205E48A300B64981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = REDOProjectTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.REDOProjectTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REDOProjectTwo.app/REDOProjectTwo";
+			};
+			name = Release;
+		};
+		0604ED5A205E48A300B64981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = REDOProjectTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.REDOProjectTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = REDOProjectTwo;
+			};
+			name = Debug;
+		};
+		0604ED5B205E48A300B64981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = REDOProjectTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UHWO.REDOProjectTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = REDOProjectTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0604ED26205E48A200B64981 /* Build configuration list for PBXProject "REDOProjectTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604ED51205E48A300B64981 /* Debug */,
+				0604ED52205E48A300B64981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604ED53205E48A300B64981 /* Build configuration list for PBXNativeTarget "REDOProjectTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604ED54205E48A300B64981 /* Debug */,
+				0604ED55205E48A300B64981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604ED56205E48A300B64981 /* Build configuration list for PBXNativeTarget "REDOProjectTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604ED57205E48A300B64981 /* Debug */,
+				0604ED58205E48A300B64981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0604ED59205E48A300B64981 /* Build configuration list for PBXNativeTarget "REDOProjectTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0604ED5A205E48A300B64981 /* Debug */,
+				0604ED5B205E48A300B64981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0604ED23205E48A200B64981 /* Project object */;
+}
